@@ -1,0 +1,18 @@
+.msgBox {
+    width: 50%;
+    padding: 1vmax;
+    margin: 1.2vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right {
+    float: right;
+    background-color: crimson;
+    color: white;
+}
+.left {
+   
+    float: left;
+    background-color: rgb(196, 255, 184);
+}

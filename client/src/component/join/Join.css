@@ -1,0 +1,60 @@
+.joinPage {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.joinContainer > img {
+  width: 20vmax;
+}
+
+.joinContainer h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 2.5vmax;
+  width: 25vmax;
+  border-bottom: 0.2vmax solid white;
+  text-align: center;
+  padding: 1vmax;
+  box-sizing: border-box;
+}
+
+#joinInput {
+  width: 30vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  margin: 2vmax;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.joinbtn {
+  width: 25vmax;
+  padding: 1.5vmax;
+  border-radius: 5px;
+  font-size: 2vmax;
+  font-weight: 600;
+  margin: 2vmax;
+  background-color: crimson;
+  color: white;
+  transition: all 0.3s;
+  border: none;
+}
+
+.joinbtn:hover {
+  background-color: rgb(180, 27, 58);
+}

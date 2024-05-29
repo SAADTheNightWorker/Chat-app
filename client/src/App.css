@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+@media (max-aspect-ratio: 7/10) {
+  .joinContainer {
+    width: 100% !important;
+    padding: 15px;
+    margin: 10px;
+  }
+  .joinContainer > img {
+    width: 30vw !important;
+  }
+  .joinContainer > h1 {
+    font-size: 6vw !important;
+    width: 65vw !important;
+    border-bottom: 0.6vw solid white !important;
+    padding: 2vw !important;
+  }
+  #joinInput {
+    width: 65vw !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+  }
+  .joinbtn {
+    width: 65vw !important;
+    padding: 4vw !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .chatContainer {
+    background-color: white;
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .chatHeader {
+    height: 10% !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  .chatContainer {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .chatInput {
+    height: 10% !important;
+  }
+  #inputInner {
+    width: 100% !important;
+    padding: 2vmax !important;
+    font-size: 2vmax !important;
+    border-bottom-left-radius: 0px !important;
+  }
+  .sendBtn {
+    border-bottom-right-radius: 10px;
+    width: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sendBtn > img {
+    width: 3vmax !important;
+  }
+  .msgBox {
+    width: 60% !important;
+    padding: 2vmax !important;
+    margin: 3vmax !important;
+  }
+  .logo-img {
+    width: 20% !important;
+  }
+}
